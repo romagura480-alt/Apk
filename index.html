@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform TV – App Oficial</title>
 
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+        /* ======== ESTILO GENERAL ======== */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background: #0c0f14;
+            color: #e8e8e8;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+        }
+
+        a { text-decoration: none; }
+
+        /* ======== HEADER PREMIUM ======== */
+        header {
+            padding: 70px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1c1f29, #2e323f);
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.35);
+        }
+
+        header img {
+            width: 120px;
+            margin-bottom: 25px;
+            filter: drop-shadow(0 4px 10px rgba(0,0,0,0.4));
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        /* ======== BOTONES DE DESCARGA ======== */
+        .downloads {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-download {
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-size: 17px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #4a60ff, #8c44ff);
+            box-shadow: 0 4px 15px rgba(76, 96, 255, 0.4);
+            transition: 0.3s;
+        }
+
+        .btn-download:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 7px 20px rgba(76,96,255,0.6);
+        }
+
+        .btn-pc {
+            background: linear-gradient(135deg, #34c759, #28a745);
+            box-shadow: 0 4px 15px rgba(40,167,69,0.4);
+        }
+
+        .btn-pc:hover {
+            box-shadow: 0 7px 20px rgba(40,167,69,0.7);
+        }
+
+        /* ======== SECCIÓN DE FEATURES ======== */
+        .features {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .feature {
+            background: #1a1d25;
+            padding: 25px;
+            width: 280px;
+            border-radius: 18px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.07);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+            transition: .3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+        }
+
+        .feature h3 {
+            color: #8ab4ff;
+        }
+
+        /* ======== SCREENSHOTS ======== */
+        .screenshots {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .screenshots img {
+            width: 270px;
+            margin: 10px;
+            border-radius: 18px;
+            box-shadow: 0 7px 25px rgba(0,0,0,0.45);
+            transition: 0.3s;
+        }
+
+        .screenshots img:hover {
+            transform: scale(1.03);
+        }
+
+        /* ======== EXTRA INFO ======== */
+        .extra-info {
+            margin: 50px auto;
+            width: 90%;
+            max-width: 750px;
+            background: #1a1e26;
+            padding: 35px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+            border: 1px solid rgba(255,255,255,0.07);
+        }
+
+        .extra-info h2 {
+            color: #9bb7ff;
+        }
+
+        /* ======== FOOTER ======== */
+        footer {
+            background: #0a0d12;
+            padding: 25px 10px;
+            text-align: center;
+            color: #8e8e8e;
+            margin-top: 50px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="https://www.appcreator24.com/srv/imgs/gen/3706067_ico.png?v=10">
+        <h1>Platform TV</h1>
+        <p>Tu plataforma de anime rápida, moderna y actualizada.</p>
+
+        <!-- BOTONES NUEVOS -->
+        <div class="downloads">
+            <a class="btn-download" href="https://apk.e-droid.net/apk/app3706067-o7aru3.apk?v=11">
+                <i class="fa-brands fa-android"></i> Descargar Android
+            </a>
+
+            <a class="btn-download btn-pc" href="https://example.com/tu-app-pc.exe">
+                <i class="fa-solid fa-computer"></i> Descargar para PC
+            </a>
+        </div>
+    </header>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="feature"><h3>✨ En Emisión</h3><p>Animes actualizados y finalizados.</p></div>
+        <div class="feature"><h3>📁 Categorías</h3><p>Acción, drama, terror, romance y más.</p></div>
+        <div class="feature"><h3>⚡ Rápida</h3><p>Interfaz fluida y optimizada.</p></div>
+        <div class="feature"><h3>🎥 Calidad Alta</h3><p>Ver en HD y 4K.</p></div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="screenshots">
+        <img src="https://fv5-4.files.fm/thumb.php?i=5mcp827mmf&v=1&n=Screenshot_20250831-131759.png">
+        <img src="https://fv5-4.files.fm/thumb.php?i=txx3wmpppc&v=1&n=Screenshot_20250831-131750.png">
+        <img src="https://files.fm/images/list_items/eye-circle-light-new.svg?v=1">
+    </section>
+
+    <!-- INFO EXTRA -->
+    <section class="extra-info">
+        <h2>🌐 Más Información</h2>
+        <p>Sigue nuestra página para novedades y actualizaciones.</p>
+        <a class="btn-download" href="https://www.facebook.com/profile.php?id=61554552625762">
+            Visitar Página Web
+        </a>
+    </section>
+
+    <footer>
+        Plataforma TV © 2025 – Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
